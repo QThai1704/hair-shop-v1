@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+openapi:
+  service:
+    api-docs: api-services
+    server: http://localhost:${server.port}
+    title: Build with dev
+    version: 1.0.0

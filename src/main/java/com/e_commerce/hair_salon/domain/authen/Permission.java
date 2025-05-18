@@ -1,0 +1,29 @@
+package com.e_commerce.hair_salon.domain.authen;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.sql.Timestamp;
+import java.util.Date;
+
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "permissions")
+public class Permission {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
+    //  Attribute
+    private String name;
+    private String displayName;
+    private String guardName;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    //  Relationship
+}

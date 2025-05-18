@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+openapi:
+  service:
+    api-docs: api-services
+    server: http://localhost:${server.port}
+    title: Build with prod
+    version: 1.0.0

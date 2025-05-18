@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: test
+
+openapi:
+  service:
+    api-docs: api-services
+    server: http://localhost:${server.port}
+    title: Build with test
+    version: 1.0.0
