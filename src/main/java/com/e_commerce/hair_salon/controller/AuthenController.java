@@ -8,4 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 @Slf4j
 public class AuthenController {
+//    Login
+//    Logout
+//    Register
+//    Forgot Password
+//    Reset Password
 }
